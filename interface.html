@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="interface.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img class="chat-header-avatar" src="https://randomuser.me/api/portraits/men/67.jpg" alt="Dad">
+            <div class="chat-header-info">
+                <span class="chat-header-name">Dad 👴</span>
+                <span class="chat-header-status">
+                    <span class="status-dot"></span>
+                    Online
+                </span>
+            </div>
+        </div>
+        
+        <ul class="chat-list">
+            <li class="message left">
+                <img class="avatar" src="https://randomuser.me/api/portraits/women/17.jpg" alt="">
+                <div class="bubble">
+                    <p>I'm hungry!</p>
+                    <span class="timestamp">10:30 AM</span>
+                </div>
+            </li>
+            <li class="message right">
+                <img class="avatar" src="https://randomuser.me/api/portraits/men/67.jpg" alt="">
+                <div class="bubble">
+                    <p>Hi hungry, nice to meet you. I'm Dad.</p>
+                    <span class="timestamp">10:31 AM</span>
+                </div>
+            </li>
+            <li class="message left">
+                <img class="avatar" src="https://randomuser.me/api/portraits/women/17.jpg" alt="">
+                <div class="bubble">
+                    <p>DAD! I'm serious!</p>
+                    <span class="timestamp">10:31 AM</span>
+                </div>
+            </li>
+            <li class="message right">
+                <img class="avatar" src="https://randomuser.me/api/portraits/men/67.jpg" alt="">
+                <div class="bubble">
+                    <p>I thought your name was hungry...?</p>
+                    <span class="timestamp">10:32 AM</span>
+                </div>
+            </li>
+        </ul>
+        
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input type="text" class="text-input" placeholder="Type a message...">
+                <button class="send-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
